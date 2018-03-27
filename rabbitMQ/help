@@ -1,0 +1,8 @@
+1- create a queue in rabbitmq server and call it :  rpc_queue
+2- monitor connections: http://localhost:15672
+
+Now you can connect java to nodejs
+
+nodejs does an RPC and asks java to execute a function . The result is sent back to nodejs
+
+You can use this architecture for cloud machine learning and IOT
